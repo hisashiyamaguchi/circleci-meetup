@@ -1,0 +1,6 @@
+{
+  "AUTH0_DOMAIN": "circleci-meetup-prod.auth0.com",
+  "AUTH0_CLIENT_ID": "5v7YbwRFSDZulr0HhDHdtpXxYnQim900",
+  "AUTH0_CLIENT_SECRET": "h0ob5dAObGPOGEeprbIxX09Va_o9ISVu1ZCO6Y9CAijHTuSZRCIF1BmUGR0fM7p8",
+  "AUTH0_ALLOW_DELETE": true
+}
