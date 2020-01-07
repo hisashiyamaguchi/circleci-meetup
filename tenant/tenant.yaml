@@ -5,6 +5,11 @@ rules:
     stage: login_success
     enabled: true
     order: 1
+  - name: Second Rule
+    script: ./rules/Second Rule.js
+    stage: login_success
+    enabled: true
+    order: 2
 pages: []
 resourceServers: []
 clients:
