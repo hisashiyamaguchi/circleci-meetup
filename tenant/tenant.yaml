@@ -10,6 +10,11 @@ rules:
     stage: login_success
     enabled: true
     order: 2
+  - name: Third Rule
+    script: ./rules/Third Rule.js
+    stage: login_success
+    enabled: true
+    order: 3
 pages: []
 resourceServers: []
 clients:
