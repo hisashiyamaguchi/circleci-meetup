@@ -1,5 +1,10 @@
 emailProvider: {}
 rules:
+  - name: 4th Rule
+    script: ./rules/4th Rule.js
+    stage: login_success
+    enabled: true
+    order: 4
   - name: First Rule
     script: ./rules/First Rule.js
     stage: login_success
