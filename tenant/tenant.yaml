@@ -5,6 +5,11 @@ rules:
     stage: login_success
     enabled: true
     order: 4
+  - name: 5th Rule
+    script: ./rules/5th Rule.js
+    stage: login_success
+    enabled: true
+    order: 5
   - name: First Rule
     script: ./rules/First Rule.js
     stage: login_success
