@@ -15,6 +15,11 @@ rules:
     stage: login_success
     enabled: true
     order: 6
+  - name: 7th Rule
+    script: ./rules/7th Rule.js
+    stage: login_success
+    enabled: true
+    order: 7
   - name: First Rule
     script: ./rules/First Rule.js
     stage: login_success
