@@ -20,6 +20,11 @@ rules:
     stage: login_success
     enabled: true
     order: 7
+  - name: 8th Rule
+    script: ./rules/8th Rule.js
+    stage: login_success
+    enabled: true
+    order: 8
   - name: First Rule
     script: ./rules/First Rule.js
     stage: login_success
